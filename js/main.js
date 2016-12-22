@@ -6,10 +6,12 @@ $(document).ready(function()
     if ($(window).scrollTop() > margin)
     {
     	$('header nav').addClass('fixed-nav');
+			$('#info').addClass('info-bg');
     }
     else
     {
     	$('header nav').removeClass('fixed-nav');
+			$('#info').removeClass('info-bg');
     }
     return false;
 	});
