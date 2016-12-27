@@ -197,6 +197,45 @@ footer img {
   color: #9191E9;
 }
 
+#advantages #adv-buttons {
+  text-align: center;
+  padding: 0 0 110px 0;
+  position: relative;
+}
+
+#advantages #adv-buttons a {
+  margin: 100px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 30px 40px;
+  background: rgba(255,255,255,.7);
+  color: #222;
+  text-decoration: none;
+  border: 5px solid #076d0b;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+  position: absolute;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  top: -135px;
+}
+
+#advantages #adv-buttons a:first-of-type {
+  left: 400px;
+}
+
+#advantages #adv-buttons a:hover {
+  -webkit-transform: scale(1.02, 1.02);
+  -moz-transform: scale(1.02, 1.02);
+  -ms-transform: scale(1.02, 1.02);
+  -o-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+  background: #fff;
+}
+
 #info {
   text-align: left;
   list-style-type: none;
@@ -372,6 +411,7 @@ footer img {
   background: linear-gradient(to bottom, #076d0b 0%, #055509 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#076d0b', endColorstr='#055509',GradientType=0 );
   color: #fff;
+  padding: 0;
 }
 
 #map {
@@ -414,8 +454,14 @@ footer img {
   0% {
     transform: rotate(0deg);
   }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 
