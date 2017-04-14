@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: #333;
+  border-top: 5px solid #2121af;
+  border-bottom: 5px solid #2121af;
+}
+
+h1 {
+  display: none;
+}

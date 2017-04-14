@@ -1,0 +1,80 @@
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  background-image: none;
+  border-bottom: 3px solid #2121af;
+  border-top: 3px solid #2121af;
+  height: 50px;
+}
+
+.fixed-nav a {
+  color: #333;
+  line-height: 2.3;
+  padding: 12px 2%;
+  text-shadow: none;
+}
+
+.fixed a:hover {
+  color: #2121af;
+}
+
+@-ms-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(10deg);
+  }
+  66% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,38 @@
+#info {
+  text-align: left;
+  list-style-type: none;
+  margin-top: 0;
+  font-size: .7em;
+  padding: 10px 50px;
+  margin-top: 6px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#info li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+#info li:nth-of-type(2) {
+  float: right;
+  text-transform: lowercase;
+  font-size: 1.7em;
+}
+
+#info li:last-of-type {
+  display: block;
+}
+
+.info-bg {
+  background: rgba(50,50,50,.9);
+  color: #fff;
+  box-shadow: 0 0 5px #333;
+}
+
+.blue {
+  color: #57c3eb;
+}

@@ -1,0 +1,68 @@
+h2 {
+  margin: 0 5%;
+  text-shadow: 1px 1px 2px #999;
+  letter-spacing: 5px;
+}
+
+h2::before, h2::after {
+  content: " ";
+  clear: both;
+  display: block;
+  background: #2121af;
+  height: 3px;
+  width: 80%;
+  margin: 20px 0 20px -5%;
+}
+
+#news {
+  margin: 0 5%;
+}
+
+#news a {
+  color: #333;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#news a:hover {
+  color: #2121af;
+}
+
+#news img {
+  height: 50px;
+  width: 50px;
+  display: block;
+  float: left;
+  margin-right: 20px;
+  border: 3px solid #2121af;
+  box-shadow: 0 0 5px #333;
+}
+
+#news .news-item .news-date {
+  font-weight: normal;
+}
+
+#news .news-item .news-body {
+  overflow: hidden;
+}
+
+#news .news-item .news-body h3, #news .news-item .news-body p {
+  display: block;
+  float: left;
+  font-size: 0.7em;
+  margin-top: 0;
+}
+
+#news .news-item .news-body h3 {
+  color: #2121af;
+}
+
+#news, #contact {
+  display: block;
+  float: left;
+  width: 40%;
+}

@@ -1,0 +1,57 @@
+.container {
+  clear: both;
+  overflow: hidden;
+}
+
+.container nav {
+  margin-top: 155px;
+}
+
+.container nav a {
+  margin-top: 0;
+  clear: both;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  margin: 0 2%;
+}
+
+.container nav a:first-of-type {
+  margin-left: 50px;
+}
+
+.container nav a img {
+  border-radius: 50%;
+  width: 8%;
+}
+
+.container nav a p {
+  position: absolute;
+  visibility: hidden;
+  left: -25px;
+  top: 5px;
+  width: 100%;
+  background: #fff;
+  color: #222;
+  padding: 10px 20px;
+  z-index: 100;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid #2121af;
+  font-size: .9em;
+  box-shadow: 0 0 5px #333;
+}
+
+.container nav a:hover p {
+  visibility: visible;
+}
+
+.container nav a img:hover {
+  -webkit-animation: spin 500ms 1;
+  -moz-animation: spin 500ms 1;
+  -ms-animation: spin 500ms 1;
+  animation: spin 500ms 1;
+  cursor: pointer;
+}

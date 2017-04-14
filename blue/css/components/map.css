@@ -1,0 +1,9 @@
+#map {
+  width: 450px;
+  height: 220px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #000;
+  position: absolute;
+  right: 5%;
+  bottom: 15%;
+}

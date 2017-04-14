@@ -1,0 +1,87 @@
+#advantages {
+  margin: 20px 0;
+  width: 100%;
+  background: url("./../../img/adv.jpg");
+  background-size: cover;
+  background-position: top left;
+  box-shadow: 0 0 20px #000;
+  border-top: 3px solid #2121af;
+  border-bottom: 3px solid #2121af;
+}
+
+#advantages ul {
+  padding: 0;
+  width: 80%;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  margin: 85px auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 20px #000;
+}
+
+#advantages li {
+  width: 25%;
+  list-style: none;
+  display: inline-block;
+  text-shadow: 0 0 5px #000;
+  padding: 50px 20px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.7em;
+}
+
+#advantages li img {
+  width: 100px;
+}
+
+#advantages li:first-of-type {
+  color: #57c3eb;
+}
+
+#advantages li:nth-of-type(2) {
+  color: #FFD700;
+}
+
+#advantages li:last-of-type {
+  color: #9191E9;
+}
+
+#advantages #adv-buttons {
+  text-align: center;
+  padding: 0 0 110px 0;
+  position: relative;
+}
+
+#advantages #adv-buttons a {
+  margin: 100px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 30px 40px;
+  background: rgba(255,255,255,.7);
+  color: #222;
+  text-decoration: none;
+  border: 5px solid #2121af;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+  position: absolute;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  top: -135px;
+}
+
+#advantages #adv-buttons a:first-of-type {
+  left: 400px;
+}
+
+#advantages #adv-buttons a:hover {
+  -webkit-transform: scale(1.02, 1.02);
+  -moz-transform: scale(1.02, 1.02);
+  -ms-transform: scale(1.02, 1.02);
+  -o-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+  background: #fff;
+}
